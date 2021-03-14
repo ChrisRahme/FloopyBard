@@ -1,0 +1,67 @@
+[
+	{
+		"MinScore": 9,
+		"MaxScore": 0
+		
+	},
+	{
+		"Name": "Chris",
+		"Email": "chris@email.com",
+		"Country": "Lebanon",
+		"Score": 1
+	},
+	{
+		"Name": "Chris again",
+		"Email": "chris@email.com",
+		"Country": "Lebanon",
+		"Score": 2
+	},
+	{
+		"Name": "Player 3",
+		"Email": "player@email.com",
+		"Country": "Floopy Land",
+		"Score": 1
+	},
+	{
+		"Name": "Player 4",
+		"Email": "player@email.com",
+		"Country": "Floopy Land",
+		"Score": 1
+	},
+	{
+		"Name": "Player 5",
+		"Email": "player@email.com",
+		"Country": "Floopy Land",
+		"Score": 1
+	},
+	{
+		"Name": "Player 6",
+		"Email": "player@email.com",
+		"Country": "Floopy Land",
+		"Score": 1
+	},
+	{
+		"Name": "Player 7",
+		"Email": "player@email.com",
+		"Country": "Floopy Land",
+		"Score": 1
+	},
+	{
+		"Name": "Player 8",
+		"Email": "player@email.com",
+		"Country": "Floopy Land",
+		"Score": 1
+	},
+	{
+		"Name": "Player 9",
+		"Email": "player@email.com",
+		"Country": "Floopy Land",
+		"Score": 1
+	},
+	{
+		"Name": "Player 10",
+		"Email": "player@email.com",
+		"Country": "Floopy Land",
+		"Score": 1
+	}
+]

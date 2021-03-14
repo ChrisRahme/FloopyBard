@@ -1,0 +1,179 @@
+/*** COMMON ***/
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  color: #EEE;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #F5C86B;
+  color: #333;
+}
+
+.navbar a.active {
+  background-color: #F8B733;
+  color: #EEE;
+}
+
+h1 {
+	color: #F8B733;
+	text-align: center;
+}
+
+h2 {
+	color: #8d753c;
+	text-align: center;
+	margin-top: -20px;
+}
+
+h3 {
+	color: #F8B733;
+}
+
+h4 {
+	color: #8d753c;
+}
+
+/*** GAME ***/
+
+#titleContainer {
+	text-align: center;
+	margin-top: 4.5vh;
+}
+
+#mainContainer {
+	position: absolute;
+	margin: auto;
+	opacity: 0;
+	transform: translateY(50px);
+}
+
+#canvasContainer {
+	border-top: 5px solid #234;
+	border-left: 5px solid #234;
+	border-right: 5px solid #234;
+}
+
+canvas {
+	background-image: url(images/canvasBg.png);
+    background-repeat: repeat;
+    background-position: center center;
+}
+
+#canvasBase {
+	border-left: 5px solid #234;
+	border-right: 5px solid #234;
+	border-bottom: 5px solid #234;
+	width: 608px;
+	height: 60px;
+	background-repeat: repeat;
+    background-position: center center;
+	animation: floor 3s;
+}
+
+@keyframes floor {
+    from {
+        left: 0;
+    }
+    to {
+        left: 50%;
+    }
+}
+
+#restartButton {
+	margin-left: 10px;
+	width: 80px;
+}
+
+#pauseButton {
+	width: 80px;
+}
+
+#countrySelector {
+	margin-right: 10px;
+	width: 428px;
+}
+
+#inputContainer {
+	position: absolute;
+	left: 100px;
+}
+
+#sendButton {
+	float: right;
+	width: 80px;
+}
+
+/*** SCORES ***/
+
+#scoresTable {
+	width: 80%;
+	background-color: #456;
+	margin: 2vh auto 0 auto;
+	color: #EEE;
+}
+
+#scoresTable th {
+	color: #F8B733;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: left;
+	padding-bottom: 5px;
+}
+
+#inputError {
+	color: red;
+}
+
+/*** ABOUT ***/
+
+.division {
+	background-color: #456;
+	margin: 2vh 5vw 0 5vw;
+	border-radius: 45px 15px;
+	padding: 5px 20px;
+	color: #EEE;
+}
+
+#aboutTitleContainer {
+	text-align: center;
+	margin-top: 5vh;
+	transition: transform .2s;
+}
+
+#aboutTitleContainer:hover {
+	-ms-transform: scale(1.1) rotate(-4deg);
+	-webkit-transform: scale(1.1) rotate(-4deg);
+	transform: scale(1.1) rotate(-4deg);
+}
+
+#aboutTable {
+	padding-bottom: 10px;
+}
+
+#aboutTable td {
+  padding-right: 15px;
+}
+
+#aboutTable td:nth-child(1) {
+	color: #F8B733;
+	font-weight: bold;
+}
+
+#lastdiv {
+	margin-bottom: 2vh;
+}

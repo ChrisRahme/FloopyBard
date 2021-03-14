@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" href="style.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="scripts/game.js"></script>
+	<script src="scripts/scores.js"></script>
+</head>
+
+<body bgcolor="#345">
+	<div class="navbar">
+		<a class="active" href="game.html">Game</a>
+		<a href="scores.html">Score Board</a>
+		<a href="about.html">About</a>
+	</div>
+	<div id="titleContainer">
+		<img src="images/title.png" style="width: 608px">
+	</div>
+	<div id="mainContainer">
+		<div id="canvasContainer">
+			<div id="inputContainer" style="position:absolute; left: 100px; display: none">
+				<h3>You got to the leaderboard!</h3>
+				<h4 id="scoreShow">Your score is: </h4>
+				<table id="inputTable">
+					<tr>
+						<td>Enter your name:</td>
+						<td><input id="nameField" type="text" style="width:300px"/></td>
+					</tr>
+					<tr>
+						<td>Enter your email:</td>
+						<td><input id="mailField" type="email" style="width:300px"/></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td><button id="sendButton" onClick="sendInfo()">Send</button></td>
+					</tr>
+				</table>
+				<h4 id="inputError">				
+			</div>
+			<div id="looseContainer" style="position:absolute; left: 195px; top: 50px; display: none">
+				<h1 style="margin-bottom: -20px">You lost!<h1>
+				<h1 id="scoreDisplay">Your score is: </h1>
+			</div>
+		</div>
+		<img id="canvasBase" src="images/base.png">
+		<div id="buttonsContainer">
+			<button id="restartButton" onClick="restartGame()">Restart</button>
+			<button id="pauseButton">Pause</button>
+			<select id="countrySelector"></select>
+		</div>
+
+	</div>
+</body>
+</html>
