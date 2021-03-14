@@ -1,5 +1,3 @@
-# FloopyBard
- 
 # About
 
 This is a JavaScript Flappy Bird replica built by [ChrisRahme](https://github.com/ChrisRahme) and [MichelKhalaf](https://github.com/MichelKhalaf).
