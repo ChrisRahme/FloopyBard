@@ -9,11 +9,10 @@ $(document).ready(function(){
 	pauseButton.attr("myTextColor", "black");
 	pauseButton.click(function(){
 		pauseGame();
-		var color = pauseButton.attr("myTextColor");
-		if(pauseButton.attr("myTextColor") == "red"){
+		if (pauseButton.attr("myTextColor") == "red"){
 			pauseButton.css("color", "black");
 			pauseButton.attr("myTextColor", "black");
-		}else{
+		} else {
 			pauseButton.css("color", "red");
 			pauseButton.attr("myTextColor", "red");
 		}
