@@ -1,3 +1,5 @@
+[![CodeFactor](https://www.codefactor.io/repository/github/chrisrahme/floopybard/badge)](https://www.codefactor.io/repository/github/chrisrahme/floopybard)
+
 # About
 
 This is a JavaScript Flappy Bird replica built by [ChrisRahme](https://github.com/ChrisRahme) and [MichelKhalaf](https://github.com/MichelKhalaf).
