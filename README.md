@@ -10,6 +10,6 @@ High scores are stored in _scripts/scores.json_ and are displayed on the "Scores
 Fly the bird as far as you can without hitting a pipe.
 
 * `START/RESUME:` Enter, Esc, Space, Up, W, P, S
-* `PAUSE:       ` Enter, Esc, P, S
-* `FLY UP:      ` Space, Up, W
-* `DIVE:        ` Release Space, Up, W
+* `PAUSE:` Enter, Esc, P, S
+* `FLY UP:` Space, Up, W
+* `DIVE:` Release Space, Up, W
