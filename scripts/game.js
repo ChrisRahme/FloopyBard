@@ -30,7 +30,7 @@ $(document).ready(function(){
 	// );
 	let mainContainer = jQuery("#mainContainer");
 	let x = jQuery(window).width()/2 - mainContainer.width()/2;
-	let y = jQuery(window).height()/2 - mainContainer.height()/2;
+	//let y = jQuery(window).height()/2 - mainContainer.height()/2;
 	mainContainer.animate({
 		left: x,
 		opacity: 1,
